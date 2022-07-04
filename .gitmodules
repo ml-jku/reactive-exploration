@@ -4,6 +4,3 @@
 [submodule "src/icmppo"]
 	path = src/icmppo
 	url = https://github.com/CursedSeraphim/icmppo.git
-[submodule "icmppo"]
-	path = icmppo
-	url = https://github.com/CursedSeraphim/icmppo.git
