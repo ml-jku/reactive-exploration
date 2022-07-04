@@ -28,7 +28,7 @@ This repository contains the source code for our paper **"Reactive Exploration t
 ## Installation
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Pytorch](https://img.shields.io/badge/PyTorch-1.11-red.svg)](https://pytorch.org/get-started/previous-versions/)
-![Licence](https://img.shields.io/github/license/ml-jku/reactive_exploration)
+![Licence](https://img.shields.io/github/license/ml-jku/reactive-exploration)
 
 First, clone the repository and install the conda environment from the repository root (using either linux or windows config file): 
 ```
