@@ -1,6 +1,0 @@
-tensorboardX
-pytest
-pytest-mock
-torch
-numpy
-gym
