@@ -1,0 +1,5 @@
+env_name: 'JBW-v2'
+step_modulo: 1e99
+use_colour_swapper: True
+recovery_start: 1e6
+soft_horizon: 1e4

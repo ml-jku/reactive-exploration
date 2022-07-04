@@ -1,0 +1,6 @@
+kind: "DQN_PER"
+policy: "CnnPolicy"
+buffer_size: 1e6
+alpha: 0.6
+beta: 0
+beta_increment: 0

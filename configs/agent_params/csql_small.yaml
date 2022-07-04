@@ -1,0 +1,10 @@
+kind: "CSQL"
+policy: "SQLCnnPolicy"
+buffer_size: 1e5
+use_reward_predictor: True
+exploration_params:
+  kind: "ICM"
+  intrinsic_reward_integration: 0.85
+  policy_weight: 10.0
+  reward_scale: 0.0001
+  weight: 0.2

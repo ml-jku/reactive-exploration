@@ -1,0 +1,3 @@
+kind: "DQN"
+policy: "CnnPolicy"
+buffer_size: 5e3

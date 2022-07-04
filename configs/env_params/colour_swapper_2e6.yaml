@@ -1,0 +1,4 @@
+env_name: 'JBW-v2'
+step_modulo: 2e6
+use_colour_swapper: True
+soft_horizon: 1e4

@@ -1,0 +1,13 @@
+policy: "CnnPolicy"
+use_reward_predictor: True
+exploration_params:
+  kind: "ICM"
+  intrinsic_reward_integration: 0.15
+  policy_weight: 1.0
+  reward_scale: 0.01
+  weight: 0.2
+  norm_rewards: False
+reward_model_params:
+  intrinsic_reward_integration: 0.15
+  intrinsic_reward_scale: 1.0
+  norm_rewards: False

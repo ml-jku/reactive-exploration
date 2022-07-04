@@ -1,0 +1,23 @@
+env_name: 'InfHCartPole-v1'
+use_vision_wrapper: False
+soft_horizon: 1e4
+cartpole_dicts:
+  - stop_at_x_threshold: True
+    modulo_theta: True
+    reward_function: 'variable'
+    # 1 / 11.52
+    rew_xc: 0.08680555555555555
+    # 1 / 288
+    rew_theta_c: 0.003472222222222222
+    reset_pole_on_drop: True
+  - stop_at_x_threshold: True
+    modulo_theta: True
+    reward_function: 'variable'
+    # 1 / 11.52
+    rew_xc: 0.08680555555555555
+    # 1 / 288
+    rew_theta_c: 0.003472222222222222
+    reset_pole_on_drop: True
+    length: 1
+    masscart: 2
+    force_mag: -10

@@ -1,0 +1,3 @@
+policy: "CnnPolicy"
+use_reward_predictor: True
+ent_coef: 0.0

@@ -1,0 +1,16 @@
+glfw-3.3.2.bin.WIN64/
+__pycache__/
+.idea/
+.ipynb_checkpoints/
+venv/
+src/venv/
+src/.idea/
+src/.ipynb_checkpoints/
+src/__pycache__
+state_prediction_logs/
+.vscode/settings.json
+monitor_file.monitor.csv
+src/monitor_file.monitor.csv
+profiling/
+
+*.gif

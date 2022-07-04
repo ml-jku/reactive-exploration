@@ -1,0 +1,6 @@
+[submodule "JBW"]
+	path = JBW
+	url = https://github.com/eaplatanios/jelly-bean-world.git
+[submodule "src/icmppo"]
+	path = src/icmppo
+	url = https://github.com/CursedSeraphim/icmppo.git

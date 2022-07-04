@@ -1,0 +1,10 @@
+policy: "CnnPolicy"
+use_reward_predictor: True
+exploration_params:
+  kind: "RND"
+  intrinsic_reward_integration: 0.85
+  policy_weight: 1.0
+  reward_scale: 0.01
+  weight: 0.2
+  model_params:
+    latent_dim: 512

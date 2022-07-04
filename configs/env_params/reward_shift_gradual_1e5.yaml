@@ -1,0 +1,2 @@
+env_name: 'JBW-continuous-1e5-v4'
+soft_horizon: 1e4

@@ -1,0 +1,5 @@
+env_name: 'JBW-v2' # use different env_name to additionally introduce reward inversions - e.g. see reward_shift_abrupt_1e6.yaml
+step_modulo: 5e5
+use_green_white_swapper: True
+soft_horizon: 1e4
+use_rotator: False

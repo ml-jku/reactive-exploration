@@ -1,0 +1,37 @@
+# directory creation is handled by Hydra
+hydra:
+  sweep:
+    dir: ../outputs/${experiment_name}/${now:%Y-%m-%d_%H-%M-%S}
+    subdir: ${hydra.job.override_dirname}/seed=${seed}
+  run:
+    dir: ../outputs/${experiment_name}/${now:%Y-%m-%d_%H-%M-%S}
+  job:
+    config:
+      override_dirname:
+        exclude_keys:
+          - seed
+          - store_trajectory
+          - start_recording
+          - stop_recording
+
+# defaults for variable components --> agent_params, env_params
+defaults:
+  - agent_params: icm
+  - env_params: colour_swapper
+
+experiment_name: PPO_Swapper_JBW-v2
+seed: 1
+device_str: 'cuda:0'
+steps: 2e6
+use_wandb: True
+store_trajectory: False
+start_recording: 0
+stop_recording: -1
+
+run_params:
+  log_dir: './'
+  save_dir: './'
+  with_timestamp: False
+
+callback_params:
+  save_freq: 2.5e7
